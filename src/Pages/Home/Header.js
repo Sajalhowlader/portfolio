@@ -1,6 +1,10 @@
+import React from 'react';
 import { Container, Nav, Navbar } from "react-bootstrap";
 
-<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+const Header = () => {
+  return (
+    <div>
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
   <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -19,3 +23,8 @@ import { Container, Nav, Navbar } from "react-bootstrap";
   </Navbar.Collapse>
   </Container>
 </Navbar>
+    </div>
+  );
+};
+
+export default Header;
