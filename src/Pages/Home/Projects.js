@@ -28,9 +28,27 @@ const Projects = () => {
             <button>MongoDB</button>
           </div>
           <div className="info-btn">
-        <Link className="live-site" to="https://nortex-83a1c.web.app/" target="_blank">Live LInk</Link>
-        <Link className="live-site" to="https://github.com/Sajalhowlader/nortex-website" target="_blank">Clint Code</Link>
-        <Link className="live-site" to="https://github.com/Sajalhowlader/nortex-server-side" target="_blank">Server Code</Link>
+            <Link
+              className="live-site"
+              to="https://nortex-83a1c.web.app/"
+              target="_blank"
+            >
+              Live LInk
+            </Link>
+            <Link
+              className="live-site"
+              to="https://github.com/Sajalhowlader/nortex-website"
+              target="_blank"
+            >
+              Clint Code
+            </Link>
+            <Link
+              className="live-site"
+              to="https://github.com/Sajalhowlader/nortex-server-side"
+              target="_blank"
+            >
+              Server Code
+            </Link>
           </div>
           <button className="details">Details</button>
         </div>
@@ -50,9 +68,27 @@ const Projects = () => {
             <button>MongoDB</button>
           </div>
           <div className="info-btn">
-          <Link className="live-site" to="https://c-and-a-warehouse.web.app/" target="_blank">Live Link</Link>
-        <Link className="live-site" to="https://github.com/Sajalhowlader/invento-warehouse" target="_blank">Clint Code</Link>
-        <Link className="live-site" to="https://github.com/Sajalhowlader/invento-server-side" target="_blank">Server Code</Link>
+            <Link
+              className="live-site"
+              to="https://c-and-a-warehouse.web.app/"
+              target="_blank"
+            >
+              Live Link
+            </Link>
+            <Link
+              className="live-site"
+              to="https://github.com/Sajalhowlader/invento-warehouse"
+              target="_blank"
+            >
+              Clint Code
+            </Link>
+            <Link
+              className="live-site"
+              to="https://github.com/Sajalhowlader/invento-server-side"
+              target="_blank"
+            >
+              Server Code
+            </Link>
           </div>
           <button className="details">Details</button>
         </div>
@@ -68,11 +104,22 @@ const Projects = () => {
             <button>React Hooks</button>
             <button>Bootstrap-5</button>
             <button>Heroku</button>
-     
           </div>
           <div className="info-btn">
-          <Link className="live-site" to="https://gym-edge-react.web.app/" target="_blank">Live Link</Link>
-        <Link className="live-site" to="https://github.com/Sajalhowlader/gym-edge" target="_blank">Clint Code</Link>
+            <Link
+              className="live-site"
+              to="https://gym-edge-react.web.app/"
+              target="_blank"
+            >
+              Live Link
+            </Link>
+            <Link
+              className="live-site"
+              to="https://github.com/Sajalhowlader/gym-edge"
+              target="_blank"
+            >
+              Clint Code
+            </Link>
           </div>
           <button className="details">Details</button>
         </div>
