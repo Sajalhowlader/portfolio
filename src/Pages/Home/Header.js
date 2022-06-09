@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import navImg from '../../images/oo.jpg';
 import Banner from './Banner';
 import Features from './Features';
+import Projects from './Projects';
 
 const Header = () => {
   return (
@@ -27,6 +28,7 @@ const Header = () => {
 </Navbar>
 <Banner/>
 <Features/>
+<Projects/>
     </>
   );
 };

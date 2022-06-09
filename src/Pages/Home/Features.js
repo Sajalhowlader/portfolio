@@ -3,10 +3,10 @@ import { FaBootstrap, FaCss3, FaDatabase, FaJava, FaNodeJs, FaReact } from 'reac
 const Features = () => {
     return (
         <section className='px-5 my-5'>
-   <div className="title">
-   <h1>What I Know</h1>
+    <div className="title">
+                      <h1>What I Know</h1>
    <p className='c-one'></p>
-   <p className='c-two'></p>
+                                 <p className='c-two'></p>
    </div>
             <div className="feature-container ">
                 <div className="feature-info">
