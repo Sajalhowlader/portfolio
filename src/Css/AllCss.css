@@ -1,9 +1,13 @@
+body {
+  background-color: #ecf0f3;
+}
 .resume-btn {
-    background: linear-gradient(145deg, #e5e5e5, #f0f0f0);
-    box-shadow: 22px 22px 44px #b8b8b8, -22px -22px 44px #ffffff;
-    border: none;
-    padding: 9px 12px;
-    font-weight: bold;
-    border-radius: 3px;
-    color: #00a1ffe3;
-}            
+  border-radius: 4px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 7px 7px 14px #898989, -7px -7px 14px #ffffff;
+  border: none;
+  padding: 9px 12px;
+  font-weight: bold;
+  border-radius: 3px;
+  color: #00a1ffe3;
+}
