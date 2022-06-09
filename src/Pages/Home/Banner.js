@@ -1,16 +1,18 @@
 import React from 'react';
-import bannerImg from '../../images/pp.png';
+import bannerImg from '../../images/ppp.png';
 const Banner = () => {
     return (
         <section>
-          <div className='banner-container'>
+          <div className='banner-container px-5'>
               <div className='banner-info'>
- <h2>Hi ! I'm</h2>
- <h1>SAJAL HOWLADER</h1>
-
+                  <p>WELCOME TO MY WORLD</p>
+                <h2>Hi ! I'm</h2>
+                   <h1>SAJAL HOWLADER</h1>  
               </div>
               <div className="banner-img">
-                  <img src={bannerImg} alt="" />
+                <div className="img-shadow">
+                <img src={bannerImg} alt="" />
+                </div>
               </div>
               </div>  
         </section>
