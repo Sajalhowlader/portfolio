@@ -1,10 +1,14 @@
 import React from 'react';
-import { FaJava,FaReact,FaNodeJs,FaDatabase,FaBootstrap,FaCss3 } from 'react-icons/fa';
+import { FaBootstrap, FaCss3, FaDatabase, FaJava, FaNodeJs, FaReact } from 'react-icons/fa';
 const Features = () => {
     return (
-        <section>
-            <h1>What I Know</h1>
-            <div className="feature-container">
+        <section className='px-5 my-5'>
+   <div className="title">
+   <h1>What I Know</h1>
+   <p className='c-one'></p>
+   <p className='c-two'></p>
+   </div>
+            <div className="feature-container ">
                 <div className="feature-info">
                   <FaJava/>
                     <h2>Javascript</h2>

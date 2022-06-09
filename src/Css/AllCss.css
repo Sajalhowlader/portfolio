@@ -42,6 +42,13 @@ body {
   margin-left: 50px;
 }
 
+/* Feature section */
+.feature-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
 .home-menu {
   text-decoration: none;
   padding: 6px 25px;
@@ -74,4 +81,50 @@ body {
   padding: 12px 35px;
   color: #00086c;
   font-size: 25px;
+}
+
+/* Feature section */
+
+
+.feature-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title h1 {
+  border-bottom: 2px solid #1143b3;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.c-one {
+  border: 1px solid rgb(255, 0, 102);
+  width: 90px;
+  margin: 0 auto;
+}
+
+.c-two {
+  width: 70px;
+  border: 1px solid #1143b3;
+  margin: 4px auto;
+}
+
+.feature-info {
+  border-radius: 6px;
+  background: #ecf0f3;
+  box-shadow: inset 5px -5px 10px #b3b3b3, inset -5px 5px 10px #ffffff;
+  padding: 20px;
+}
+
+.feature-info svg {
+  font-size: 40px;
+  margin-bottom: 9px;
+  color: #ff002f;
+  font-weight: bold;
 }
