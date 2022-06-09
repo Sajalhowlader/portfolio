@@ -3,6 +3,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import navImg from '../../images/oo.jpg';
 import Banner from './Banner';
+import Features from './Features';
 
 const Header = () => {
   return (
@@ -25,6 +26,7 @@ const Header = () => {
    </Navbar.Collapse>
 </Navbar>
 <Banner/>
+<Features/>
     </>
   );
 };
