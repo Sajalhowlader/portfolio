@@ -1,7 +1,8 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import navImg from '../../images/oo.jpg'
+import navImg from '../../images/oo.jpg';
+import Banner from './Banner';
 
 const Header = () => {
   return (
@@ -23,6 +24,7 @@ const Header = () => {
     </Nav>
    </Navbar.Collapse>
 </Navbar>
+<Banner/>
     </>
   );
 };
