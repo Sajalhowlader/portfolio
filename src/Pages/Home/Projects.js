@@ -1,4 +1,6 @@
 import React from "react";
+import gym from "../../images/Gym-Edge.png";
+import invento from "../../images/Invento.png";
 import nortex from "../../images/Nortex.png";
 const Projects = () => {
   return (
@@ -29,7 +31,50 @@ const Projects = () => {
             <button className="live-site">Clint Code</button>
             <button className="live-site">Server Code</button>
           </div>
-          <button>Details</button>
+          <button className="details">Details</button>
+        </div>
+        <div className="project-details">
+          <img className="img-fluid" src={invento} alt="" />
+          <h2>Invento</h2>
+          <h4>Technology</h4>
+          <div className="tech">
+            <button>React.js</button>
+            <button>Firebase</button>
+            <button>JWT</button>
+            <button>React Router</button>
+            <button>React Hooks</button>
+            <button>Tailwind.CSS</button>
+            <button>DausiUI</button>
+            <button>Node.js</button>
+            <button>MongoDB</button>
+          </div>
+          <div className="info-btn">
+            <button className="live-site">Live Site</button>
+            <button className="live-site">Clint Code</button>
+            <button className="live-site">Server Code</button>
+          </div>
+          <button className="details">Details</button>
+        </div>
+        <div className="project-details">
+          <img className="img-fluid" src={gym} alt="" />
+          <h2>Gym Edge</h2>
+          <h4>Technology</h4>
+          <div className="tech">
+            <button>React.js</button>
+            <button>Firebase</button>
+            <button>Axios</button>
+            <button>React Router</button>
+            <button>React Hooks</button>
+            <button>Bootstrap-5</button>
+            <button>Heroku</button>
+     
+          </div>
+          <div className="info-btn">
+            <button className="live-site">Live Site</button>
+            <button className="live-site">Clint Code</button>
+            <button className="live-site">Server Code</button>
+          </div>
+          <button className="details">Details</button>
         </div>
       </div>
     </section>

@@ -153,6 +153,9 @@ body {
   color: black;
   font-family: monospace;
 }
+.project-details img {
+  border-radius: 4px;
+}
 .tech {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -170,10 +173,22 @@ body {
   color: #ff0e51;
 }
 .live-site {
-  margin: 0px 7px;
+  margin: 0px 9px;
   padding: 2px 9px;
   border-radius: 5px;
-  border: 2px solid #01085a; 
+  border: 2px solid #01085a;
   font-weight: 500;
   color: #1c1c1c;
+  margin-bottom: 20px;
+}
+.details {
+  display: flex;
+  margin: 4px auto;
+  width: 80%;
+  justify-content: center;
+  border: none;
+  padding: 8px 0px;
+  border-radius: 5px;
+  background: #cfd0d16b;
+  font-weight: 600;
 }
