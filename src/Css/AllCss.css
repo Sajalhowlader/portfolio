@@ -85,7 +85,6 @@ body {
 
 /* Feature section */
 
-
 .feature-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -127,4 +126,17 @@ body {
   margin-bottom: 9px;
   color: #ff002f;
   font-weight: bold;
+}
+/* Projects */
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.project-details {
+  border-radius: 5px;
+  background: linear-gradient(225deg, #cacaca, #f0f0f0);
+  box-shadow: -5px 5px 10px #6e6e6e, 5px -5px 10px #ffffff;
+  background: #ecf0f3;
+  padding: 10px;
 }
