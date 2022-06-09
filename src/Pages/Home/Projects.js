@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import gym from "../../images/Gym-Edge.png";
 import invento from "../../images/Invento.png";
 import nortex from "../../images/Nortex.png";
@@ -28,27 +27,31 @@ const Projects = () => {
             <button>MongoDB</button>
           </div>
           <div className="info-btn">
-            <Link
+            <a
               className="live-site"
-              to="https://nortex-83a1c.web.app/"
+              href="https://nortex-83a1c.web.app/"
               target="_blank"
+              rel="noopener noreferrer"
             >
-              Live LInk
-            </Link>
-            <Link
+              Live a
+            </a>
+
+            <a
               className="live-site"
-              to="https://github.com/Sajalhowlader/nortex-website"
+              href="https://github.com/Sajalhowlader/nortex-website"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Clint Code
-            </Link>
-            <Link
+            </a>
+            <a
               className="live-site"
-              to="https://github.com/Sajalhowlader/nortex-server-side"
+              href="https://github.com/Sajalhowlader/nortex-server-side"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Server Code
-            </Link>
+            </a>
           </div>
           <button className="details">Details</button>
         </div>
@@ -68,27 +71,30 @@ const Projects = () => {
             <button>MongoDB</button>
           </div>
           <div className="info-btn">
-            <Link
+            <a
               className="live-site"
-              to="https://c-and-a-warehouse.web.app/"
+              href="https://c-and-a-warehouse.web.app/"
               target="_blank"
+              rel="noopener noreferrer"
             >
-              Live Link
-            </Link>
-            <Link
+              Live a
+            </a>
+            <a
               className="live-site"
-              to="https://github.com/Sajalhowlader/invento-warehouse"
+              href="https://github.com/Sajalhowlader/invento-warehouse"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Clint Code
-            </Link>
-            <Link
+            </a>
+            <a
               className="live-site"
-              to="https://github.com/Sajalhowlader/invento-server-side"
+              href="https://github.com/Sajalhowlader/invento-server-side"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Server Code
-            </Link>
+            </a>
           </div>
           <button className="details">Details</button>
         </div>
@@ -106,20 +112,22 @@ const Projects = () => {
             <button>Heroku</button>
           </div>
           <div className="info-btn">
-            <Link
+            <a
               className="live-site"
-              to="https://gym-edge-react.web.app/"
+              href="https://gym-edge-react.web.app/"
               target="_blank"
+              rel="noopener noreferrer"
             >
-              Live Link
-            </Link>
-            <Link
+              Live a
+            </a>
+            <a
               className="live-site"
-              to="https://github.com/Sajalhowlader/gym-edge"
+              href="https://github.com/Sajalhowlader/gym-edge"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Clint Code
-            </Link>
+            </a>
           </div>
           <button className="details">Details</button>
         </div>

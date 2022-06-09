@@ -3,6 +3,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import navImg from '../../images/oo.jpg';
 import Banner from './Banner';
+import Contacts from './Contacts';
 import Features from './Features';
 import Projects from './Projects';
 
@@ -29,6 +30,7 @@ const Header = () => {
 <Banner/>
 <Features/>
 <Projects/>
+<Contacts/>
     </>
   );
 };

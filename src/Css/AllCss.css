@@ -175,14 +175,14 @@ body {
   color: #ff0e51;
 }
 .live-site {
-  margin: 0px 5px;
+  margin: 0px 10px;
   padding: 2px 9px;
   border-radius: 5px;
   border: 2px solid #01085a;
   font-weight: 500;
   color: #1c1c1c;
   text-decoration: none;
-  cursor:pointer;
+  cursor: pointer;
 }
 .details {
   display: flex;
@@ -194,4 +194,41 @@ body {
   border-radius: 5px;
   background: #cfd0d16b;
   font-weight: 600;
+}
+/* Contact info */
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.input-one {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 17px;
+}
+
+.contact-info {
+  margin: 0 auto;
+}
+
+.contact-info p {
+  margin-bottom: 4px;
+  font-weight: bold;
+  /* color: #2c2929; */
+}
+
+.input-one input {
+  width: 260px;
+  outline: none;
+  padding: 6px 2px;
+  border-radius: 5px;
+  border: 1px solid #213b79;
+}
+
+.contact-info textarea {
+  width: 100%;
+  height: 150px;
+  padding: 5px 5px;
+  border: 1px solid #223a7a;
+  border-radius: 3px;
 }
