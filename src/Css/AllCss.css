@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 body {
   background-color: #ecf0f3;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .nav-con {
   padding: 20px 0px;
@@ -41,4 +41,11 @@ body {
   padding: 6px 25px;
   color: #3c3c3c;
   font-weight: bold;
+}
+/* Banner section style */
+.banner-container {
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
 }
