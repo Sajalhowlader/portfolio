@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import gym from "../../images/Gym-Edge.png";
 import invento from "../../images/Invento.png";
 import nortex from "../../images/Nortex.png";
@@ -27,9 +28,9 @@ const Projects = () => {
             <button>MongoDB</button>
           </div>
           <div className="info-btn">
-            <button className="live-site">Live Site</button>
-            <button className="live-site">Clint Code</button>
-            <button className="live-site">Server Code</button>
+        <Link className="live-site" to="https://nortex-83a1c.web.app/" target="_blank">Live LInk</Link>
+        <Link className="live-site" to="https://github.com/Sajalhowlader/nortex-website" target="_blank">Clint Code</Link>
+        <Link className="live-site" to="https://github.com/Sajalhowlader/nortex-server-side" target="_blank">Server Code</Link>
           </div>
           <button className="details">Details</button>
         </div>
@@ -49,9 +50,9 @@ const Projects = () => {
             <button>MongoDB</button>
           </div>
           <div className="info-btn">
-            <button className="live-site">Live Site</button>
-            <button className="live-site">Clint Code</button>
-            <button className="live-site">Server Code</button>
+          <Link className="live-site" to="https://c-and-a-warehouse.web.app/" target="_blank">Live Link</Link>
+        <Link className="live-site" to="https://github.com/Sajalhowlader/invento-warehouse" target="_blank">Clint Code</Link>
+        <Link className="live-site" to="https://github.com/Sajalhowlader/invento-server-side" target="_blank">Server Code</Link>
           </div>
           <button className="details">Details</button>
         </div>
@@ -70,9 +71,8 @@ const Projects = () => {
      
           </div>
           <div className="info-btn">
-            <button className="live-site">Live Site</button>
-            <button className="live-site">Clint Code</button>
-            <button className="live-site">Server Code</button>
+          <Link className="live-site" to="https://gym-edge-react.web.app/" target="_blank">Live Link</Link>
+        <Link className="live-site" to="https://github.com/Sajalhowlader/gym-edge" target="_blank">Clint Code</Link>
           </div>
           <button className="details">Details</button>
         </div>
