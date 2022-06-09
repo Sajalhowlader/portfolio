@@ -1,6 +1,4 @@
 import React from "react";
-import gym from "../../images/Gym-Edge.png";
-import invento from "../../images/Invento.png";
 import nortex from "../../images/Nortex.png";
 const Projects = () => {
   return (
@@ -15,58 +13,17 @@ const Projects = () => {
           <img className="img-fluid" src={nortex} alt="" />
           <h2>Nortex Tools</h2>
           <h4>Technology</h4>
-          <span>React.js</span>
-          <span>Firebase</span>
-          <span>React Query</span>
-          <span>React Router</span>
-          <span>React Firebase</span>
-          <span>React Hooks</span>
-          <span>Tailwind.CSS</span>
-          <span>DausiUI</span>
-          <span>Node.js</span>
-          <span>MongoDB</span>
-          <div className="info-btn">
-            <button className="live-site">Live Site</button>
-            <button className="live-site">Clint Code</button>
-            <button className="live-site">Server Code</button>
+          <div className="tech">
+            <button>React.js</button>
+            <button>Firebase</button>
+            <button>JWT</button>
+            <button>React Router</button>
+            <button>React Hooks</button>
+            <button>Tailwind.CSS</button>
+            <button>DausiUI</button>
+            <button>Node.js</button>
+            <button>MongoDB</button>
           </div>
-          <button>Details</button>
-        </div>
-        <div className="project-details">
-          <img className="img-fluid" src={invento} alt="" />
-          <h2>Nortex Tools</h2>
-          <h4>Technology</h4>
-          <span>React.js</span>
-          <span>Firebase</span>
-          <span>React Query</span>
-          <span>React Router</span>
-          <span>React Firebase</span>
-          <span>React Hooks</span>
-          <span>Tailwind.CSS</span>
-          <span>DausiUI</span>
-          <span>Node.js</span>
-          <span>MongoDB</span>
-          <div className="info-btn">
-            <button className="live-site">Live Site</button>
-            <button className="live-site">Clint Code</button>
-            <button className="live-site">Server Code</button>
-          </div>
-          <button>Details</button>
-        </div>
-        <div className="project-details">
-          <img className="img-fluid" src={gym} alt="" />
-          <h2>Nortex Tools</h2>
-          <h4>Technology</h4>
-          <span>React.js</span>
-          <span>Firebase</span>
-          <span>React Query</span>
-          <span>React Router</span>
-          <span>React Firebase</span>
-          <span>React Hooks</span>
-          <span>Tailwind.CSS</span>
-          <span>DausiUI</span>
-          <span>Node.js</span>
-          <span>MongoDB</span>
           <div className="info-btn">
             <button className="live-site">Live Site</button>
             <button className="live-site">Clint Code</button>

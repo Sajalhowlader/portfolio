@@ -135,8 +135,45 @@ body {
 }
 .project-details {
   border-radius: 5px;
-  background: linear-gradient(225deg, #cacaca, #f0f0f0);
   box-shadow: -5px 5px 10px #6e6e6e, 5px -5px 10px #ffffff;
   background: #ecf0f3;
   padding: 10px;
+}
+.project-details h2 {
+  margin-top: 20px;
+  font-weight: 600;
+  color: #071152;
+  font-size: 25px;
+  font-family: arial black;
+}
+
+.project-details h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  font-family: monospace;
+}
+.tech {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 25px;
+}
+.tech button {
+  padding: 0px 4px;
+  background: white;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: inset 5px -5px 10px #bebebe, inset -5px 5px 10px #ffffff;
+  border: none;
+  font-weight: 500;
+  color: #ff0e51;
+}
+.live-site {
+  margin: 0px 7px;
+  padding: 2px 9px;
+  border-radius: 5px;
+  border: 2px solid #01085a; 
+  font-weight: 500;
+  color: #1c1c1c;
 }
