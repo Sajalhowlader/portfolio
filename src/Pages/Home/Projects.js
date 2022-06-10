@@ -44,7 +44,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Live a
+              Live Site
             </a>
 
             <a
@@ -90,7 +90,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Live a
+              Live Site
             </a>
             <a
               className="live-site"
@@ -133,7 +133,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Live a
+              Live Site
             </a>
             <a
               className="live-site"

@@ -1,8 +1,14 @@
 import invento from "../../images/Invento.jpg";
+import one from "../../images/Invento-2.png";
+import two from "../../images/Invento-4.png";
 const ProjectsTwo = () => {
   return (
       <div className=" d-projects">
-        <img className="img-fluid" src={invento} alt="" />
+           <div className="project-img">
+      <img className="img-fluid" src={invento} alt="" />
+      <img className="img-fluid" src={one} alt="" />
+      <img className="img-fluid" src={two} alt="" />
+      </div>
         <h2>Invento Warehoiuse</h2>
         <h4>Details About Project</h4>
         <ul>

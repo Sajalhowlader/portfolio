@@ -1,13 +1,19 @@
+import two from '../../images/Nortex-4.png';
 import nortex from "../../images/Nortex.jpg";
+import one from '../../images/Nortex2.png';
 const ProjectsOne = () => {
   return (
     <div className=" d-projects">
+      <div className="project-img">
       <img className="img-fluid" src={nortex} alt="" />
+      <img className="img-fluid" src={one} alt="" />
+      <img className="img-fluid" src={two} alt="" />
+      </div>
       <h2>Nortex Tools</h2>
       <h4>Details About Project</h4>
       <ul>
         <li>
-          {" "}
+     
           A fully functional responsive website that implements an email
           password and social authorization system. On the website, users can
           browse products, order products, pay with stripe, edit profiles, and
