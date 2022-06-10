@@ -15,7 +15,7 @@ const Projects = () => {
     navigate("/projectsThree");
   };
   return (
-    <section className=" my-5">
+    <section className=" my-5" id="projectId">
       <div className="title">
         <h1>Some of My Projects</h1>
         <p className="c-one"></p>

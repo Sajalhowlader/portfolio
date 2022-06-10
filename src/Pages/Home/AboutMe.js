@@ -1,17 +1,17 @@
 import aboutImg from "../../images/ll.png";
 const AboutMe = () => {
   return (
-    <div className="about">
-      <div className="title">
+    <div className="about " id="aboutId">
+      <div className="title abtitle">
         <h1>About Me</h1>
         <p className="c-one"></p>
         <p className="c-two"></p>
       </div>
       <div className="about-container">
         <div className="about-img">
-         <div className="img-shadow">
-         <img className="img-fluid" src={aboutImg} alt="" />
-         </div>
+          <div className="img-shadow">
+            <img className="img-fluid" src={aboutImg} alt="" />
+          </div>
         </div>
         <div className="about-info">
           <h2>
@@ -26,8 +26,8 @@ const AboutMe = () => {
             solve.I trust on mine one day i will a boss of programming.
           </p>
           <div className="phone-email">
-            <p>Email:sajalhowlader08@gmail.com</p>
-            <p>Phone:01571117363</p>
+            <p className="fw-bold">Email:sajalhowlader08@gmail.com</p>
+            <p className="fw-bold">Phone:01571117363</p>
           </div>
         </div>
       </div>

@@ -35,7 +35,7 @@ const Contacts = () => {
       );
   };
   return (
-    <section className=" my-5">
+    <section className=" my-5" id="contactsId">
       <div className="title">
         <h1>Contact With Me</h1>
         <p className="c-one"></p>

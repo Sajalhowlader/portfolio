@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 const Features = () => {
   return (
-    <section className=" my-5">
+    <section className=" my-5 " id="featureId">
       <div className="title">
         <h1>What I Know</h1>
         <p className="c-one"></p>

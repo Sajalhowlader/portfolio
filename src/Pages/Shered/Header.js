@@ -15,18 +15,18 @@ const Header = () => {
             <NavLink className="home-menu" to="/">
               HOME
             </NavLink>
-            <NavLink className="home-menu" to="/">
+            <a className="home-menu" href="#featureId">
               FEATURES
-            </NavLink>
-            <NavLink className="home-menu" to="/">
+            </a>
+            <a className="home-menu" href="#projectId">
               PROJECTS
-            </NavLink>
-            <NavLink className="home-menu" to="/">
+            </a>
+            <a className="home-menu" href="#contactsId">
               CONTACTS
-            </NavLink>
-            <NavLink className="home-menu" to="/about">
+            </a>
+            <a className="home-menu" href="#aboutId">
               ABOUT
-            </NavLink>
+            </a>
             <NavLink className="home-menu" to="/blog">
               BLOG
             </NavLink>
