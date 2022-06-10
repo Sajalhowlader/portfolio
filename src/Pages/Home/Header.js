@@ -1,10 +1,10 @@
-import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import navImg from '../../images/oo.jpg';
 import Banner from './Banner';
 import Contacts from './Contacts';
 import Features from './Features';
+import Footer from './Footer';
 import Projects from './Projects';
 
 const Header = () => {
@@ -31,6 +31,7 @@ const Header = () => {
 <Features/>
 <Projects/>
 <Contacts/>
+<Footer/>
     </>
   );
 };
