@@ -1,6 +1,38 @@
-import React from "react";
-import cimg from '../../images/5124556-removebg-preview.png'
+import emailjs from "emailjs-com";
+import { useRef } from "react";
+import cimg from "../../images/5124556-removebg-preview.png";
 const Contacts = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    const name = e.target.name.value;
+    const email = e.target.email.value;
+    const message = e.target.message.value;
+
+    const templateParams = {
+      name: name,
+      email: email,
+      message: message,
+    };
+    console.log(templateParams);
+
+    emailjs
+      .send(
+        "service_g0zvsp6",
+        "template_fkyrk1r",
+        templateParams,
+        "nngDj1x_LH11XCisx"
+      )
+      .then(
+        function (response) {
+          console.log("SUCCESS!", response.status, response.text);
+        },
+        function (error) {
+          console.log("FAILED...", error);
+        }
+      );
+  };
   return (
     <section className="px-5 my-5">
       <div className="title">
@@ -10,22 +42,23 @@ const Contacts = () => {
       </div>
       <div className="contact-container">
         <div className="contact-img">
-            <img src={cimg} alt="" />
+          <img src={cimg} alt="" />
         </div>
-        <div className="contact-info">
+        <form ref={form} onSubmit={sendEmail} className="contact-info">
           <div className="input-one">
             <div>
               <p htmlFor="">Your Name</p>
-              <input type="text" placeholder="Your Name" />
+              <input name="name" type="text" placeholder="Your Name" />
             </div>
             <div>
               <p htmlFor="">Your Name</p>
-              <input type="Email" placeholder="Your Email" />
+              <input name="email" type="Email" placeholder="Your Email" />
             </div>
           </div>
           <p>Your Message</p>
-          <textarea placeholder="Your Message"></textarea>
-        </div>
+          <textarea name="message" placeholder="Your Message"></textarea>
+          <input type="submit" value="Send Me" />
+        </form>
       </div>
     </section>
   );
