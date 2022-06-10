@@ -67,13 +67,13 @@ body {
 /* Banner section style */
 .banner-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1.5fr 1fr;
   align-items: center;
   height: 81vh;
 }
 
 .banner-img img {
-  width: 70%;
+  width: 100%;
 }
 
 .banner-info {
@@ -270,6 +270,20 @@ body {
   text-align: center;
   margin-top: 15px;
 }
+/* Typed */
+.ttyy {
+  font-size: 45px;
+  font-weight: bold;
+  width: 590px;
+}
+
+.ttyy strong {
+  color: #ff0052;
+}
+.banner-info p {
+  font-size: 18px;
+  color: #00163e;
+}
 /* Media */
 @media screen and (max-width: 688px) {
   .contact-container {
@@ -339,5 +353,14 @@ body {
   }
   .project-img img {
     height: 100%;
+  }
+  .ttyy {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .banner-info {
+    margin: 0;
+    padding: 0;
   }
 }

@@ -1,4 +1,5 @@
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import Typed from "react-typed";
 import bannerImg from "../../images/ppp.png";
 const Banner = () => {
   return (
@@ -8,6 +9,20 @@ const Banner = () => {
           <p>WELCOME TO MY WORLD</p>
           <h2>Hi ! I'm</h2>
           <h1>SAJAL HOWLADER</h1>
+          <div className="ttyy">
+            <strong> I'M A </strong>
+            <Typed
+              className="Tyedd"
+              strings={[
+                " Web Developer",
+                " Web Designer",
+                " Responsive Designer",
+              ]}
+              typeSpeed={35}
+              backSpeed={40}
+              loop
+            ></Typed>
+          </div>
           <div>
             <p>FIND ME ON</p>
             <div className="social-div">
@@ -24,9 +39,7 @@ const Banner = () => {
           </div>
         </div>
         <div className="banner-img">
-          <div className="img-shadow">
-            <img src={bannerImg} alt="" />
-          </div>
+          <img src={bannerImg} alt="" />
         </div>
       </div>
     </section>
