@@ -1,15 +1,13 @@
-import React from 'react';
-import { Routes } from 'react-router-dom';
+import ProjectsOne from "../Details.js/ProjectsOne";
+import ProjectsTwo from "../Details.js/ProjectsTwo";
+import ProjectThree from "../Details.js/ProjectThree";
 
-const PublicRoutes = () => {
-    return (
-        <div>
-            
-            <Routes>
 
-            </Routes>
-        </div>
-    );
-};
+export const openRoutes = [
+  { path: "projectsOne", Component: ProjectsOne },
+  { path: "projectsTow", Component: ProjectsTwo },
+  { path: "projectsThree", Component: ProjectThree },
+  
+];
 
-export default PublicRoutes;
+
