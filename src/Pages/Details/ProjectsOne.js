@@ -12,6 +12,7 @@ const ProjectsOne = () => {
       <h2>Nortex Tools</h2>
       <h4>Details About Project</h4>
       <ul>
+        <strong>User</strong>
         <li>
      
           A fully functional responsive website that implements an email
@@ -29,6 +30,31 @@ const ProjectsOne = () => {
           js, Express js, MongoDB, JWT, and Heroku.
         </li>
       </ul>
+      <a
+              className="live-site"
+              href="https://nortex-83a1c.web.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Site
+            </a>
+
+            <a
+              className="live-site"
+              href="https://github.com/Sajalhowlader/nortex-website"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Clint Code
+            </a>
+            <a
+              className="live-site"
+              href="https://github.com/Sajalhowlader/nortex-server-side"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Server Code
+            </a>
     </div>
   );
 };

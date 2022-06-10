@@ -29,12 +29,14 @@ const Banner = () => {
               <button className="social-btn">
                 <FaFacebook />
               </button>
-              <button className="social-btn">
+              <a href="https://github.com/Sajalhowlader" target="_blank"
+        rel="noopener noreferrer" className="social-btn ">
                 <FaGithub />
-              </button>
-              <button className="social-btn">
+              </a>
+              <a href="https://www.linkedin.com/in/sajal-howlader/" target="_blank"
+        rel="noopener noreferrer" className="social-btn">
                 <FaLinkedin />
-              </button>
+              </a>
             </div>
           </div>
         </div>

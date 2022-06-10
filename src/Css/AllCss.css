@@ -59,7 +59,7 @@ body {
 
 .home-menu {
   text-decoration: none;
-  padding: 6px 25px;
+  padding: 6px 15px;
   color: #3c3c3c;
   font-weight: bold;
 }
@@ -222,7 +222,6 @@ body {
 .contact-info p {
   margin-bottom: 4px;
   font-weight: bold;
-  /* color: #2c2929; */
 }
 
 .input-one input {
@@ -274,7 +273,7 @@ body {
 .ttyy {
   font-size: 45px;
   font-weight: bold;
-  width: 590px;
+  width: 600px;
 }
 
 .ttyy strong {
@@ -283,6 +282,13 @@ body {
 .banner-info p {
   font-size: 18px;
   color: #00163e;
+}
+.blogs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 50px;
 }
 /* Media */
 @media screen and (max-width: 688px) {
@@ -363,4 +369,8 @@ body {
     margin: 0;
     padding: 0;
   }
+  .blogs {
+  
+    font-size: 30px;
+}
 }

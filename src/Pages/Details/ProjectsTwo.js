@@ -24,6 +24,30 @@ const ProjectsTwo = () => {
             Heroku, and Axios.
           </li>
         </ul>
+        <a
+              className="live-site"
+              href="https://c-and-a-warehouse.web.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Site
+            </a>
+            <a
+              className="live-site"
+              href="https://github.com/Sajalhowlader/invento-warehouse"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Clint Code
+            </a>
+            <a
+              className="live-site"
+              href="https://github.com/Sajalhowlader/invento-server-side"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Server Code
+            </a>
       </div>
   );
 };
