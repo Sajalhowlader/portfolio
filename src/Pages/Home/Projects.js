@@ -1,8 +1,19 @@
-import React from "react";
+import { useNavigate } from "react-router-dom";
 import gym from "../../images/Gym-Edge.png";
 import invento from "../../images/Invento.png";
 import nortex from "../../images/Nortex.png";
 const Projects = () => {
+  const navigate = useNavigate();
+
+  const pOne = () => {
+    navigate("/projectOne");
+  };
+  const pTwo = () => {
+    navigate("/projectsTwo");
+  };
+  const pThree = () => {
+    navigate("/projectsThree");
+  };
   return (
     <section className="px-5 my-5">
       <div className="title">
@@ -53,7 +64,9 @@ const Projects = () => {
               Server Code
             </a>
           </div>
-          <button className="details">Details</button>
+          <button className="details" onClick={pOne}>
+            Details
+          </button>
         </div>
         <div className="project-details">
           <img className="img-fluid" src={invento} alt="" />
@@ -96,7 +109,9 @@ const Projects = () => {
               Server Code
             </a>
           </div>
-          <button className="details">Details</button>
+          <button onClick={pTwo} className="details">
+            Details
+          </button>
         </div>
         <div className="project-details">
           <img className="img-fluid" src={gym} alt="" />
@@ -129,7 +144,9 @@ const Projects = () => {
               Clint Code
             </a>
           </div>
-          <button className="details">Details</button>
+          <button onClick={pThree} className="details">
+            Details
+          </button>
         </div>
       </div>
     </section>

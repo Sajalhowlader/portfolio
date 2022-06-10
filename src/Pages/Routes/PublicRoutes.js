@@ -1,7 +1,6 @@
-import ProjectsOne from "../Details.js/ProjectsOne";
-import ProjectsTwo from "../Details.js/ProjectsTwo";
-import ProjectThree from "../Details.js/ProjectThree";
-
+import ProjectsOne from "../Details/ProjectsOne";
+import ProjectsTwo from "../Details/ProjectsTwo";
+import ProjectThree from "../Details/ProjectThree";
 
 export const openRoutes = [
   { path: "projectsOne", Component: ProjectsOne },

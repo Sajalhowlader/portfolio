@@ -1,11 +1,6 @@
 import { Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import navImg from "../../images/oo.jpg";
-import Banner from "./Banner";
-import Contacts from "./Contacts";
-import Features from "./Features";
-import Footer from "./Footer";
-import Projects from "./Projects";
 
 const Header = () => {
   return (
@@ -20,7 +15,7 @@ const Header = () => {
             <NavLink className="home-menu" to="/">
               HOME
             </NavLink>
-            <NavLink className="home-menu" to="/">
+            <NavLink className="home-menu" to="/feature">
               FEATURES
             </NavLink>
             <NavLink className="home-menu" to="/">
@@ -43,11 +38,6 @@ const Header = () => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <Banner />
-      <Features />
-      <Projects />
-      <Contacts />
-      <Footer />
     </>
   );
 };
