@@ -4,9 +4,9 @@ const Footer = () => {
     const today = new Date()
     const year = today.getFullYear()
     return (
-        <Footer>
-            <p>All reserve by &copy; Sajal Howlader {year}</p>
-        </Footer>
+        <div className='mt-5 py-3 text-center'>
+            <p>All reserve by &copy; Sajal Howlader {year} </p>
+        </div>
     );
 };
 

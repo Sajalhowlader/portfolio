@@ -45,6 +45,7 @@ body {
   border-radius: 3px;
   color: #00a1ffe3;
   margin-left: 50px;
+  text-decoration: none;
 }
 
 /* Feature section */
@@ -236,4 +237,12 @@ body {
   padding: 5px 5px;
   border: 1px solid #223a7a;
   border-radius: 3px;
+}
+.text-submit {
+  margin: 6px auto;
+  display: flex;
+  padding: 4px 22px;
+  font-weight: 500;
+  border: 2px solid #60a8fe;
+  border-radius: 5px;
 }

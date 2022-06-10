@@ -4,7 +4,7 @@ import navImg from "../../images/oo.jpg";
 import Banner from "./Banner";
 import Contacts from "./Contacts";
 import Features from "./Features";
-// import Footer from "./Footer";
+import Footer from "./Footer";
 import Projects from "./Projects";
 
 const Header = () => {
@@ -31,9 +31,15 @@ const Header = () => {
             </NavLink>
           </Nav>
           <Nav>
-            <NavLink to="/">
-              <button className="resume-btn">Download Resume</button>
-            </NavLink>
+            <a
+              className="resume-btn"
+              href="https://drive.google.com/file/d/1tJvdJEtuzuxtAWRT1NUau37aMgC_R3Ln/"
+              target="_black"
+              download
+              rel="noopener noreferrer"
+            >
+              Download Resume
+            </a>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
@@ -41,7 +47,7 @@ const Header = () => {
       <Features />
       <Projects />
       <Contacts />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

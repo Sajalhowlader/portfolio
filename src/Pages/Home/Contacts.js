@@ -1,5 +1,6 @@
 import emailjs from "emailjs-com";
 import { useRef } from "react";
+import { toast } from "react-toastify";
 import cimg from "../../images/5124556-removebg-preview.png";
 const Contacts = () => {
   const form = useRef();
@@ -26,10 +27,10 @@ const Contacts = () => {
       )
       .then(
         function (response) {
-          console.log("SUCCESS!", response.status, response.text);
+          toast.success("Send Success");
         },
         function (error) {
-          console.log("FAILED...", error);
+          console.log("Failed try again");
         }
       );
   };
@@ -57,7 +58,7 @@ const Contacts = () => {
           </div>
           <p>Your Message</p>
           <textarea name="message" placeholder="Your Message"></textarea>
-          <input type="submit" value="Send Me" />
+          <input className="text-submit" type="submit" value="Send Me" />
         </form>
       </div>
     </section>
