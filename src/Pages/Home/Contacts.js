@@ -35,7 +35,7 @@ const Contacts = () => {
       );
   };
   return (
-    <section className="px-5 my-5">
+    <section className=" my-5">
       <div className="title">
         <h1>Contact With Me</h1>
         <p className="c-one"></p>
@@ -43,7 +43,7 @@ const Contacts = () => {
       </div>
       <div className="contact-container">
         <div className="contact-img">
-          <img src={cimg} alt="" />
+          <img className="img-fluid" src={cimg} alt="" />
         </div>
         <form ref={form} onSubmit={sendEmail} className="contact-info">
           <div className="input-one">

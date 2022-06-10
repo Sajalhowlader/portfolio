@@ -1,4 +1,3 @@
-import React from "react";
 import {
   FaBootstrap,
   FaCss3,
@@ -9,7 +8,7 @@ import {
 } from "react-icons/fa";
 const Features = () => {
   return (
-    <section className="px-5 my-5">
+    <section className=" my-5">
       <div className="title">
         <h1>What I Know</h1>
         <p className="c-one"></p>

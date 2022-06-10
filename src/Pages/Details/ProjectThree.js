@@ -1,7 +1,7 @@
-import gym from "../../images/Gym-Edge.png";
+import gym from "../../images/Gym-Edge.jpg";
 const ProjectThree = () => {
   return (
-    <div className="px-5 d-projects">
+    <div className=" d-projects">
       <img className="img-fluid" src={gym} alt="" />
       <h2>Gym Edge</h2>
       <h4>Details About Project</h4>

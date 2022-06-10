@@ -1,7 +1,7 @@
-import invento from "../../images/Invento.png";
+import invento from "../../images/Invento.jpg";
 const ProjectsTwo = () => {
   return (
-      <div className="px-5 d-projects">
+      <div className=" d-projects">
         <img className="img-fluid" src={invento} alt="" />
         <h2>Invento Warehoiuse</h2>
         <h4>Details About Project</h4>

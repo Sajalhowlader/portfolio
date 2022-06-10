@@ -13,6 +13,7 @@ import Header from "./Pages/Shered/Header";
 function App() {
   return (
     <div className={AllCss}>
+      <div className="main">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -24,6 +25,7 @@ function App() {
       <Footer />
       <ToastContainer />
     </div>
+      </div>
   );
 }
 

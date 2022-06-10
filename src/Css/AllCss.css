@@ -9,7 +9,9 @@ body {
   background-color: #ecf0f3;
   font-family: "Poppins", sans-serif;
 }
-
+.main {
+  padding: 0 3rem;
+}
 .nav-con {
   padding: 20px 0px;
 }
@@ -245,4 +247,62 @@ body {
   font-weight: 500;
   border: 2px solid #60a8fe;
   border-radius: 5px;
+}
+
+/* Media */
+@media screen and (max-width: 688px) {
+  .contact-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+  }
+  .project-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .project-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .live-site {
+    margin: 3px;
+    padding: 4px 2px;
+  }
+
+  .feature-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .input-one {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .banner-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 500px;
+    gap: 50px;
+  }
+
+  .social-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .social-btn {
+    padding: 8px 15px;
+  }
+  .banner-img img {
+    width: 100%;
+  }
+  .tech {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .main {
+    padding: 0px 20px;
+  }
 }

@@ -1,7 +1,7 @@
-import nortex from "../../images/Nortex.png";
+import nortex from "../../images/Nortex.jpg";
 const ProjectsOne = () => {
   return (
-    <div className="px-5 d-projects" >
+    <div className=" d-projects">
       <img className="img-fluid" src={nortex} alt="" />
       <h2>Nortex Tools</h2>
       <h4>Details About Project</h4>

@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
-import gym from "../../images/Gym-Edge.png";
-import invento from "../../images/Invento.png";
-import nortex from "../../images/Nortex.png";
+import gym from "../../images/Gym-Edge.jpg";
+import invento from "../../images/Invento.jpg";
+import nortex from "../../images/Nortex.jpg";
 const Projects = () => {
   const navigate = useNavigate();
 
@@ -15,7 +15,7 @@ const Projects = () => {
     navigate("/projectsThree");
   };
   return (
-    <section className="px-5 my-5">
+    <section className=" my-5">
       <div className="title">
         <h1>Some of My Projects</h1>
         <p className="c-one"></p>
