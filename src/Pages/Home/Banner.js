@@ -26,9 +26,9 @@ const Banner = () => {
           <div>
             <p>FIND ME ON</p>
             <div className="social-div">
-              <button className="social-btn">
+              <a href="/" rel="noopener noreferrer" className="social-btn">
                 <FaFacebook />
-              </button>
+              </a>
               <a href="https://github.com/Sajalhowlader" target="_blank"
         rel="noopener noreferrer" className="social-btn ">
                 <FaGithub />

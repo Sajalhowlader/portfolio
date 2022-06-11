@@ -4,8 +4,8 @@ import navImg from "../../images/oo.jpg";
 
 const Header = () => {
   return (
-    <>
-      <Navbar collapseOnSelect expand="lg" className=" nav-con">
+    <div className=" nav-con active">
+      <Navbar collapseOnSelect expand="lg" className="px-5" >
         <Navbar.Brand href="#home" className="navImg">
           <img src={navImg} alt="" /> <span>SAJAL</span>
         </Navbar.Brand>
@@ -44,7 +44,7 @@ const Header = () => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </>
+    </div>
   );
 };
 

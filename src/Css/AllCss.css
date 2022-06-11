@@ -13,7 +13,11 @@ body {
   padding: 0 3rem;
 }
 .nav-con {
-  padding: 20px 0px;
+  background: transparent;
+}
+.nav-con.active {
+  background: #f1f3f5;
+  box-shadow: 6px 6px 16px #a59e9ebf;
 }
 
 .navImg {
@@ -22,8 +26,8 @@ body {
 }
 
 .navImg img {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   border: 3px solid #dbdbdb;
   padding: 3px;
